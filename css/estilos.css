@@ -1,0 +1,867 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+*, *:after, *:before {
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*{
+	margin:0;
+	padding:0;}
+	
+body {
+    font-family: 'Open Sans Condensed',Arial,sans-serif;
+    overflow-x: hidden;
+}
+#contenedor{
+	display:block;
+}
+#contenedor2 {
+    background-color: #E71112;
+    display: block;
+}
+h1 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+    color: #FB8026;
+    font-size: 1.9em;
+    margin: 62px auto 0;
+    padding: 0 0 10px;
+    width: 50%;
+}
+.not-ie a {
+	-webkit-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+			transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+}
+h1 span {
+    font-weight: 300;
+}
+
+
+p {
+    font-family: 'Open Sans Condensed',Arial,sans-serif;
+    margin: 16px auto;
+    width: auto;
+}
+header{
+	position: fixed;
+    width: 100%;
+    z-index: 99999999;
+	}	
+
+#slideprincipal {
+    background-color: #FFF;
+    height: 760px;
+    margin: 0 auto;
+    padding: 0;
+}
+	
+
+#caja2 {
+    background-color: #F31012;
+    display: inline-block;
+    height: 400px;
+    margin: -144px  auto 0;
+    padding: 0;    
+    width: 100%;
+}
+#caja3 {
+    background-color: #fff;
+    display: inline-block;
+    height: auto;
+    margin: 0 auto;
+    padding: 1em 14.5% 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+#caja4 {
+    background-color: #fff;
+    display: inline-block;
+    height: 1347px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+#caja21 {
+    background-image: url("../images/testimonios.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: inline-block;
+    height: 215px;
+    margin: 0 auto;
+    padding: 1em 10% 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+#caja21 h1 {
+    color: #FFF;
+    font-size: 3.0em;
+    width: 37%;
+	margin:30px auto;
+	padding:0 0 0;
+	   
+}
+
+#caja22 {
+background-image: url("../images/productos.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: inline-block;
+    height: 191px;
+    margin: 87px auto 0;
+    padding: 1em 10% 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+}
+
+#caja22 h1 {
+    color: #FFF;
+    font-size: 3.0em;
+    width: 37%;
+	margin:30px auto;
+	padding:0 0 0;
+	   
+}
+
+#texpro {
+    display: inline-block;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+}
+
+#texpro h1 {
+    color: #535252;
+    font-size: 2.5em;
+    margin: 12px auto;
+    padding-top: 21px;
+    width: 67%;
+	   
+}
+
+#texpro h2 {
+    color: #7A7979;
+    font-size: 1.7em;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 0;
+    text-align: justify;
+    width: 76%;
+	   
+}
+
+#texpro p {
+    color: #7A7979;
+    font-size: 1.3em;
+    font-style: normal;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 0;
+    text-align: justify;
+    width: 76%;
+	   
+}
+#cajaquest {
+    background-color: #fff;
+    display: inline-block;
+    height: auto;
+    padding: 1em 10% 0;
+    position: relative;
+    width: 100%;
+  margin: 87px auto 0;
+}
+
+nav#next-box {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 40px;
+    cursor: pointer;
+    opacity: 0.4;
+    padding: 13px;
+    position: absolute;
+    right: 48%;
+    top: 71%;
+    z-index: 1000;
+}
+.icon {
+	background-image:url(../images/pro1.png);
+	background-repeat:no-repeat;
+    border-radius: 50%;
+    color: #FFFFFF;
+    display: block;
+    font-size: 7em;
+    height: 2em;
+    line-height: 2em;
+    margin: 0 auto;
+    text-align: center;
+    width: 2em;
+}
+
+.icon2 {
+	background-image:url(../images/pro2.png);
+	background-repeat:no-repeat;
+    border-radius: 50%;
+    color: #FFFFFF;
+    display: block;
+    font-size: 7em;
+    height: 2em;
+    line-height: 2em;
+    margin: 0 auto;
+    text-align: center;
+    width: 2em;
+}
+
+.icon3 {
+	background-image:url(../images/pro3.png);
+	background-repeat:no-repeat;
+    border-radius: 50%;
+    color: #FFFFFF;
+    display: block;
+    font-size: 7em;
+    height: 2em;
+    line-height: 2em;
+    margin: 0 auto;
+    text-align: center;
+    width: 2em;
+}
+
+.icon4 {
+	background-image:url(../images/pro4.png);
+	background-repeat:no-repeat;
+    border-radius: 50%;
+    color: #FFFFFF;
+    display: block;
+    font-size: 7em;
+    height: 2em;
+    line-height: 2em;
+    margin: 0 auto;
+    text-align: center;
+    width: 2em;
+}
+#caja3 h1 {
+    color: #575756;
+    font-size: 1em;
+    font-weight: lighter;
+    margin: 0 auto;
+    padding: 12px 0 7px;
+    text-align: left;
+    width: 97%;
+	border-bottom: 2px solid rgba(236, 48, 40, 0.49);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+#caja3 h2 {
+    color: #575756;
+    font-size: 1.5em;
+    margin: 3px auto 0;
+    padding: 0;
+    text-align: right;
+    width: 88%;
+}
+
+#caja3 h3 {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-transform: uppercase;
+	margin: 8px auto;
+}
+
+#caja4 h1 {
+    color: #575756;
+    font-size: 1em;
+    font-weight: lighter;
+    margin: 0 auto;
+    padding: 12px 0 7px;
+    text-align: left;
+    width: 97%;
+	border-bottom: 2px solid rgba(236, 48, 40, 0.49);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+#caja4 h2 {
+    color: #575756;
+    font-size: 1.5em;
+    margin: 3px auto 0;
+    padding: 0;
+    text-align: right;
+    width: 88%;
+}
+
+#caja4 h3 {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-transform: uppercase;
+	margin: 8px auto;
+}
+
+#servicios {
+    background-color: rgba(0, 0, 0, 0);
+    display: inline-block;
+    padding: 0 1%;
+    text-align: center;
+    vertical-align: top;
+    width: 24%;
+}
+	
+/* Video Pages */
+
+.screen {
+    position: absolute;
+    height: 100%;
+    width: 100%; /*  NOTE: numVideos/100%  */;
+    float: left;
+    overflow: hidden;
+}
+
+.big-image {
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+.video-title {
+    font-size: 4em;
+    left: 5%;
+    line-height: 0.65;
+    margin: 40px 0 0;
+    opacity: 0.5;
+    padding: 0;
+    position: absolute;
+    text-transform: uppercase;
+    top: 5%;
+}
+.wrapper {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+
+.footer2 {
+	background-color:#191919;
+    display: block;
+    height: 362px;
+    margin: 0 auto;
+    width: 100%;
+	
+}
+
+.cajafooter {	
+    border-bottom: 1px solid #525252;
+    display: block;
+    height: 273px;
+    margin: 0 auto;
+    padding-top: 78px;
+    width: 63%;
+
+}
+.cajafooter1 h1 {
+    color: #CECECE;
+    font-size: 1.4em;
+    margin: 0px auto;
+    width: 80%;
+	border-bottom: none;
+    box-shadow: none ;
+	   
+}
+
+.cajafooter1 h2 {
+    color: #7A7979;
+    font-size: 1.7em;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 0;
+    text-align: justify;
+    width: 76%;
+	   
+}
+
+.cajafooter1 p {
+    color: #7A7979;
+    font-size: 0.9em;
+    font-style: normal;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    width: 80%;
+	   
+}
+
+.cajafooter1 a{
+    color: #7A7979;
+    font-size: 1.1em;
+    font-style: normal;
+    font-weight: 300;
+    margin: 0 auto;
+    text-align: left;
+    width: 80%;
+	   
+}
+
+.cajafooter3 a{
+    height: 100px;
+    margin: -14px auto;
+    position: absolute;
+    right: 222px;
+    text-align: left;
+    width: 8%;
+	   
+}
+
+.cajafooter2 h1 {
+    color: #CECECE;
+    font-size: 1.4em;
+    margin: 0px auto;
+    width: 80%;
+	border-bottom: none;
+    box-shadow: none ;
+	   
+}
+
+.cajafooter2 h2 {
+    color: #7A7979;
+    font-size: 1.7em;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 0;
+    text-align: justify;
+    width: 76%;
+	   
+}
+
+.cajafooter2 p {
+    color: #7A7979;
+    font-size: 0.9em;
+    font-style: normal;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    width: 80%;
+	   
+}
+.cajafooter3 h1 {
+    color: #CECECE;
+    font-size: 1.4em;
+    margin: 0px auto;
+    width: 80%;
+	border-bottom: none;
+    box-shadow: none ;
+	line-height: 0.8;
+	   
+}
+
+.cajafooter3 h2 {
+    color: #7A7979;
+    font-size: 1.7em;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 0;
+    text-align: justify;
+    width: 76%;
+	
+	   
+}
+
+.cajafooter3 p {
+    color: #7A7979;
+    font-size: 0.9em;
+    font-style: normal;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    width: 80%;
+	   
+}
+.cajafooter4 h1 {
+    color: #CECECE;
+    font-size: 1.4em;
+    margin: 0px auto;
+    width: 80%;
+	border-bottom: none;
+    box-shadow: none ;
+	   
+}
+
+.cajafooter4 h2 {
+    color: #7A7979;
+    font-size: 1.7em;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 0;
+    text-align: justify;
+    width: 76%;
+	   
+}
+
+.cajafooter4 p {
+    color: #7A7979;
+    font-size: 0.9em;
+    font-style: normal;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    width: 80%;
+	   
+}
+
+.cajafooter1 {
+	
+    display: inline-block;
+    height: 194px;
+    margin: 0 auto;
+    width: 33%;
+	border-right: 1px solid #525252;
+	vertical-align: top;
+}
+.cajafooter2 {
+	
+    display: inline-block;
+    height: 194px;
+    margin: 0 auto;
+    width: 33%;
+	border-right: 1px solid #525252;
+	vertical-align: top;
+}
+.cajafooter3 {
+	
+    display: inline-block;
+    height: 194px;
+    margin: 0 auto;
+    width: 33%;
+	vertical-align: top;
+	
+}
+.cajafooter4 {
+	
+    display: inline-block;
+    height: 194px;
+    margin: 0 auto;
+    width: 24%;
+	vertical-align: top;
+	
+}
+
+
+
+.footer3 {
+    background-image: url("../images/footer2.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: block;
+    height: 59px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.container2 > header, .main2 {
+    background: url("../images/bg.jpg");
+	background-repeat:no-repeat;
+	background-size:100% auto;
+    display: inline-block;
+    margin: 0 0 0 auto;
+    padding: 0 30px 50px;
+    position: relative;
+    width: 100%;
+}
+
+#contenedor {
+    display: block;
+}
+
+#texlogin {
+	background-image:url(../images/login.jpg);
+	background-size:100%;
+    display: block;
+    height: 550px;
+    width: 100%;
+	
+}
+#texlogin2 {
+    background-image: url("../images/login2.jpg");
+    background-size: 100% auto;
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+	text-align:center;
+}
+
+.logologin {
+	margin:0 auto;
+	padding-top: 22px;
+}
+.cajalogin {
+    display: block;
+    height: 300px;
+    margin-top: 170px;
+    position: absolute;
+    width: 100%;;
+
+	
+}
+
+.cajalogin1 {
+    border-right: 1px solid #FFFFFF;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+	vertical-align: top;
+	padding-right:17px;
+	padding-top: 100px;
+	
+}
+
+.cajalogin2 {
+    display: inline-block;
+    height: 100%;
+    width: 49%;
+	
+}
+
+.cajalogin1 h1 {
+    color: #FFF;
+    font-size: 2.7em;
+    width: 67%;
+	border-bottom: none;
+    box-shadow: none;
+	text-align: right;
+    width: 100%;
+    margin: -12px auto;
+	
+	   
+}
+
+
+.cajalogin1 p {
+    color: #FFF;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 0;
+    text-align: justify;
+	text-align: right;
+    width: 100%;
+	   
+}
+.cajaloginadmin2 {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.4);
+    border-radius: 17px;
+    display: inline-block;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 45px;
+    width: 35%;
+	
+}
+
+.cajaloginadmin2 h1 {
+    color: #FFF;
+    font-size: 2.7em;
+    width: 67%;
+	border-bottom: none;
+    box-shadow: none;
+    width: 100%;
+    margin: 0px auto;
+	
+	   
+}
+
+.cajaloginadmin3 {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.4);
+    border-radius: 17px;
+    display: inline-block;
+    height: 356px;
+    margin: 0 auto;
+    padding-top: 36px;
+    width: 35%;
+	
+}
+
+.cajaloginadmin3 h1 {
+    color: #FFF;
+    font-size: 2.7em;
+    width: 67%;
+	border-bottom: none;
+    box-shadow: none;
+    width: 100%;
+    margin: 0px auto;
+	
+	   
+}
+
+#loginadmin{
+    display: inline-block;
+    height: 100%;
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 70%;
+	text-align: left;
+	
+}
+
+.cajaloginadmin {
+    display: block;
+    height: 300px;
+    margin-top: 170px;
+    position: absolute;
+    width: 100%;;
+
+	
+}
+#login{
+    display: inline-block;
+    height: 100%;
+    padding-left: 15px;
+    padding-top: 96px;
+    width: 49%;
+	
+}
+
+
+#contac {
+	
+    display: block;
+    height: 550px;
+    width: 100%;
+	
+}
+
+.cajacontac {
+    display: block;
+    height: 473px;
+    margin-top: 88px;
+    position: absolute;
+    width: 100%;
+
+	
+}
+
+.cajacontac1 {
+    border-right: 1px solid #FFFFFF;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+	vertical-align: top;
+	padding-right:17px;
+	padding-top: 100px;
+	
+}
+
+.cajacontac2 {
+    background-color: rgba(0, 0, 0, 0.69);
+    display: inline-block;
+    float: right;
+    height: 100%;
+    margin-top: -473px;
+    padding-top: 73px;
+    position: relative;
+    right: 121px;
+    text-align: center;
+    width: 34%;
+    z-index: 100;
+	
+}
+
+.cajacontac2 h1 {
+    color: #FFF;
+    font-size: 2.7em;
+  	border-bottom: none;
+    box-shadow: none;
+	text-align: center;
+    width: 100%;
+    margin: 0 auto;
+	padding-top: 25px;
+	
+	   
+}
+
+
+.cajacontac1 p {
+    color: #FFF;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 0;
+    text-align: justify;
+	text-align: right;
+    width: 100%;
+	   
+}
+
+#contaclogin{
+    display: inline-block;
+    height: 100%;
+    text-align: left;
+    width: 81%;
+	
+}
+
+	/* -------------------------------------------------- */
+	/*	Map
+	/* -------------------------------------------------- */
+	
+	.google_map { 
+		position: relative;
+		width: 100%;
+		height: 473px;
+	}
+	
+	.google_map:after,
+	.google_map:before {
+		position: absolute;
+		z-index: 5;
+		left: 0;
+		width: 100%;
+		height: 0;
+		content: '';
+		
+		-webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+				box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);		
+	}
+	
+	.google_map:after { top: 0; }
+	
+	.google_map:before { 
+		bottom: 0;
+		-webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.4);
+				box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.4);	
+	}
+		
+		.google_map img { max-width: none; }
+		
+		
+	/* -------------------------------------------------- */
+	/*	Map
+	/* -------------------------------------------------- */
+	
+	
+	
+	
